@@ -1,0 +1,113 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f1f5f9;
+    color: #1e293b;
+}
+
+#container {
+    max-width: 1000px;
+    margin: 30px auto;
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px #00000015;
+}
+
+header {
+    background: #2563eb;
+    padding: 25px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+#main-wrapper {
+    padding: 30px;
+}
+
+.product-info,
+#product-info {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    background: #fff;
+}
+
+#product-img {
+    float: left;
+    width: 200px;
+    margin-right: 25px;
+}
+
+#product-img img {
+    width: 180px;
+    height: 150px;
+    object-fit: contain;
+}
+
+h2 {
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+h2 a {
+    color: #2563eb;
+    text-decoration: none;
+}
+
+h2 a:hover {
+    text-decoration: underline;
+}
+
+#rating-info {
+    list-style: none;
+    padding: 0;
+    line-height: 1.9;
+}
+
+.clear-fx {
+    clear: both;
+}
+
+#rating {
+    padding: 20px;
+    background: #eff6ff;
+    border-radius: 8px;
+}
+
+#rating label {
+    display: inline-block;
+    margin: 10px;
+    cursor: pointer;
+}
+
+#submit-button {
+    padding: 12px 25px;
+    background: #2563eb;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+}
+
+#submit-button:hover {
+    background: #1d4ed8;
+}
+
+footer {
+    height: 30px;
+}
